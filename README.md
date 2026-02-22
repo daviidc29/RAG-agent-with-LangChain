@@ -195,18 +195,6 @@ black .
 
 ---
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-This repository is designed for a **local workshop / lab** execution in a notebook. For a “live” deployment, a typical path is:
-
-* Extract notebook logic into Python modules (src/ingest.py, src/agent.py)
-* Create an API (FastAPI) with an endpoint like /ask
-* Run with Docker and deploy to a cloud platform (AWS / Azure / Render / etc.)
-* Store secrets using environment variables in your deployment platform
-
----
 
 ## Built With
 
